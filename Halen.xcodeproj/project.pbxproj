@@ -14,6 +14,10 @@
 		0A03B69029A236FB000DECBF /* HalenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A03B68F29A236FB000DECBF /* HalenTests.swift */; };
 		0A03B69A29A236FB000DECBF /* HalenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A03B69929A236FB000DECBF /* HalenUITests.swift */; };
 		0A03B69C29A236FB000DECBF /* HalenUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A03B69B29A236FB000DECBF /* HalenUITestsLaunchTests.swift */; };
+		0A03B6A929A23726000DECBF /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A03B6A829A23726000DECBF /* Home.swift */; };
+		0A03B6AB29A23B9B000DECBF /* MainLock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A03B6AA29A23B9B000DECBF /* MainLock.swift */; };
+		0A03B6AD29A2412C000DECBF /* ControlLock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A03B6AC29A2412C000DECBF /* ControlLock.swift */; };
+		0A03B6AF29A24B0F000DECBF /* LockLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A03B6AE29A24B0F000DECBF /* LockLog.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +49,10 @@
 		0A03B69529A236FB000DECBF /* HalenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HalenUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A03B69929A236FB000DECBF /* HalenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HalenUITests.swift; sourceTree = "<group>"; };
 		0A03B69B29A236FB000DECBF /* HalenUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HalenUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0A03B6A829A23726000DECBF /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		0A03B6AA29A23B9B000DECBF /* MainLock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainLock.swift; sourceTree = "<group>"; };
+		0A03B6AC29A2412C000DECBF /* ControlLock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlLock.swift; sourceTree = "<group>"; };
+		0A03B6AE29A24B0F000DECBF /* LockLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LockLog.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +105,10 @@
 			children = (
 				0A03B67D29A236F8000DECBF /* HalenApp.swift */,
 				0A03B67F29A236F8000DECBF /* ContentView.swift */,
+				0A03B6A829A23726000DECBF /* Home.swift */,
+				0A03B6AA29A23B9B000DECBF /* MainLock.swift */,
+				0A03B6AC29A2412C000DECBF /* ControlLock.swift */,
+				0A03B6AE29A24B0F000DECBF /* LockLog.swift */,
 				0A03B68129A236FB000DECBF /* Assets.xcassets */,
 				0A03B68329A236FB000DECBF /* Halen.entitlements */,
 				0A03B68429A236FB000DECBF /* Preview Content */,
@@ -260,7 +272,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A03B68029A236F8000DECBF /* ContentView.swift in Sources */,
+				0A03B6AD29A2412C000DECBF /* ControlLock.swift in Sources */,
+				0A03B6A929A23726000DECBF /* Home.swift in Sources */,
+				0A03B6AF29A24B0F000DECBF /* LockLog.swift in Sources */,
 				0A03B67E29A236F8000DECBF /* HalenApp.swift in Sources */,
+				0A03B6AB29A23B9B000DECBF /* MainLock.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
